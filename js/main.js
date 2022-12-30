@@ -14,8 +14,8 @@ button.addEventListener("click",function(){
     result2.innerText="Underweight"
     result2.style.color="red";
   }
-  else if(bmi<=18 && bmi>25){
-    result2.innerText="nomal"
+  else if(bmi>=18 && bmi<25){
+    result2.innerText="normal weight"
     result2.style.color="green";
   }
   else{
